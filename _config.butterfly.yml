@@ -9,32 +9,31 @@ nav:
 
 # Menu 目錄
 menu:
-  # Home: / || fas fa-home
-  # Archives: /archives/ || fas fa-archive
-  # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
-
+  主页: / || fas fa-home
+  文章目录: /archives/ || fas fa-archive 
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  链接||fas fa-list:
+     友情链接: /link/ || fas fa-link
+     关于: /about/ || fas fa-heart
+  
+# hide_sidebar_menu_child: true
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
+highlight_height_limit: 200 # unit: px
 code_word_wrap: false
 
 # Social Settings (社交圖標設置)
 # formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+   fab fa-github: https://github.com/zbxmx || Github 
+   fas fa-envelope: mailto:xxxxxx@gmail.com || Email 
 
 # Image (圖片設置)
 # --------------------------------------
@@ -44,20 +43,20 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /img/guidang.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img:  /img/beij.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: /img/beij.png
 
 # The banner image of archive page
-archive_img:
+archive_img: /img/88349c16a43e4548970a874d05d3bda0.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -120,7 +119,7 @@ post_meta:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # anchor
@@ -138,7 +137,7 @@ photofigcaption: false
 copy:
   enable: true
   copyright:
-    enable: false
+    enable: true
     limit_count: 50
 
 # Post
@@ -206,9 +205,9 @@ noticeOutdate:
 # --------------------------------------
 footer:
   owner:
-    enable: true
+    enable: true 
     since: 2020
-  custom_text:
+  custom_text: 很高兴认识你 
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
@@ -219,7 +218,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display:
     archive: true
     tag: true
@@ -231,10 +230,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/zbxmx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎来到zbxmx的博客
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
