@@ -22,4 +22,11 @@
       avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
       descr: 社交分享平台
 
+- class_name: 好朋友
+  class_desc: 值得推薦的博客
+  link_list:      
+    - name: samlyx
+      link: https://blog.csdn.net/m0_73593563?type=lately
+      avatar: /img/ly.jpg
+      descr: 博客
 
