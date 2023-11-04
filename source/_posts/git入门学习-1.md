@@ -1,5 +1,5 @@
 ---
-title: git入门学习
+title: git入门学习-1
 date: 2023-10-31 20:31:43
 tags: 必备学习路线
 ---
@@ -73,15 +73,15 @@ Git 的工作流程一般是：
 
   也可以找到文件夹点击右键选择如图git bash here
 
-  <img src="../images/image-20231031210538805.png" alt="image-20231031210538805" style="zoom:25%;" />
+  <img src="git入门学习-1/image-20231104200943928.png" alt="image-20231104200943928" style="zoom:50%;" />
 
   进入后输入git init
 
-  <img src="../images/image-20231031210656342.png" alt="image-20231031210656342" style="zoom: 67%;" />
+  ![image-20231104200957496](git入门学习-1/image-20231104200957496.png)
 
   初始化成功后会在文件夹出现.git 文件夹
 
-  ![image-20231031210826838](../images/image-20231031210826838.png)
+  ![image-20231104201001334](git入门学习-1/image-20231104201001334.png)
 
   证明成功
 
@@ -97,11 +97,11 @@ Git 的工作流程一般是：
 
   可以使用https
 
-  ![image-20231031211111374](../images/image-20231031211111374.png)
+  ![image-20231104201004262](git入门学习-1/image-20231104201004262.png)
 
   也可以使用ssh
 
-  ![image-20231031211125854](../images/image-20231031211125854.png)
+  ![image-20231104201006895](git入门学习-1/image-20231104201006895.png)
 
   ## git add
 
